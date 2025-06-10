@@ -34,7 +34,7 @@ def main():
         screen.blit(bg_img, [-x, 0]) #1枚目
         screen.blit(bg_img, [-x+1600, 0]) #2枚目
         screen.blit(bg_img, [-x+3200, 0]) #3枚目
-        screen.blit(kk_img, [300, 200])
+         # screen.blit(kk_img, [300, 200])
         screen.blit(kk_img,kk_rct)
         pg.display.update()
         tmr += 1        
